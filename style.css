@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(220, 149, 55);
+}
+.hidden{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.show-modal{
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: aliceblue;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;    
+    cursor: pointer;
+}
+.box:hover{
+    cursor: pointer;
+}
+.modal{
+    border: 3px solid black;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    /* height: 400px;
+    display: flex;
+    flex-direction: column;
+     */
+    /* position: relative;
+    left: 50%; */
+
+    margin: auto;
+    margin-top: 40px;
+}
+.close-modal{
+    width: 20px;
+    position: relative;
+    left: 170px;
+    top: 10px;
+    background-color: red;
+    font-weight: bold;
+}
